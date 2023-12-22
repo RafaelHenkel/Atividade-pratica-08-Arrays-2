@@ -7,4 +7,13 @@
 // Entrada: Édson, Marcelo, Letícia, Ju, Thobias
 // Saída: Thobias, Ju, Letícia, Marcelo, Édson
 
+let nomes = [];
 
+for (let i = 0; i <= 4; i++) {
+  nomes.push(prompt(`digite o ${i} nome`));
+  console.log(nomes[i]);
+}
+
+for (let i = 4; i >= 0; i--) {
+  console.log(nomes[i]);
+}

@@ -6,8 +6,16 @@ let lista = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
 let digiteNumero = Number(prompt("Digite um numero"));
 for (const numero of lista) {
   if (digiteNumero == numero) {
-    document.write("Seu numero esta na lista!");
+    document.write(`O numero digitado ${digiteNumero} está na lista`);
+    break;
   } else {
-    document.write("Seu numero não esta na lista");
+    document.write(`O numero digitado ${digiteNumero} não está na lista`);
+    break;
   }
 }
+
+// if (lista.includes(digiteNumero)) {
+//   document.write(`O numero digitado ${digiteNumero} está na lista`);
+// } else {
+//   document.write(`O numero digitado ${digiteNumero} não está na lista`);
+// }
